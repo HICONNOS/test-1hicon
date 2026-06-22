@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-1hicon
+  description: Python app that displays time - named test-1hicon
+  annotations:
+    github.com/project-slug: HICONNOS/test-1hicon
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
